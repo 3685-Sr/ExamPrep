@@ -26,8 +26,7 @@ namespace Program
             }
             set
             {
-                // // Regex validation
-                // Validator.ValidateCapitalSmall(value);
+                
 
                 if (!Regex.IsMatch(value, "^([A-Za-z])+$"))
                 {
